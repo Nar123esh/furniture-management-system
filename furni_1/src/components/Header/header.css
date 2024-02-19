@@ -1,0 +1,165 @@
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.logo img {
+    width: 2.5rem;
+    height: 40px;
+}
+.logo h2 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary-color);
+
+   
+}
+.logo h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #587089;
+
+   
+}
+.menu{
+display: flex;
+align-items: center;
+column-gap: 2.7rem;
+margin-bottom: 0px;
+
+
+
+}
+.nav__item a{
+    color: var(--primary-color);
+    font-weight: 400;
+    cursor: pointer;
+    
+
+}
+.nav__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    
+    
+}
+.nav__icons span i{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.cart__icon, 
+.fave__icon{
+    position:relative ;
+    
+
+}
+.badge{
+    position: absolute;
+    top: 8%;
+    right: -2%;
+    width: 25px;
+    height: 17px;
+    content: "";
+    display: flex;
+    align-items: baseline;
+    background: var(--primary-color);
+    background-color: #1a1616;
+    justify-content:center;
+    
+    border-radius: 60px;
+    font-size: 0.7rem; 
+    font-weight: 800;
+    z-index: 10;
+}
+.nav__icons .profile img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.nav__icons .profile{
+    position: relative;
+    z-index: 9;
+}
+.nav__icons .profile .profile_actions {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width: 100px;
+    z-index: 5;
+    padding: 10px;
+    display: ; 
+    align-items: center;
+    flex-direction: column;
+    background: #fbfefe;
+    line-height: 18px;
+    cursor: pointer;
+    color: #000;
+
+
+}
+.profile {
+    color: black;
+}
+
+.show__profileActions{
+    display: block;
+}
+.mobile__menu{
+    font-family: 1.4rem;
+    color: var(--primary-color);
+    display: none;
+}
+.nev__active{
+    font-weight: 600 !important;
+}
+.sticky__header{
+    width: 100%;
+    height: 70%;
+    line-height: 70px;
+    position: sticky;
+    top : 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background: #fff;
+
+}
+@media only screen and (max-width:768px) {
+    .navigation{
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 9999;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 90px;
+        background: #fff;
+        z-index: 99999;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}

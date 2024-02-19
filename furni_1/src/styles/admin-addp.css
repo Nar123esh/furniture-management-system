@@ -1,0 +1,30 @@
+.form__group input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid #000000; 
+    outline: none;
+  }
+  
+  
+  .form__group span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Adjustments for the button */
+  .primary__btn {
+    margin-top: 15px;
+    background-color:papayawhip;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+  }
+  
+  .primary__btn:hover {
+    background-color: #000000;
+    color: white;
+  }

@@ -1,0 +1,29 @@
+.table tr td img{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+
+td i{
+    cursor: pointer;
+}
+
+.buy__btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e9a986;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy__btn:hover {
+    background-color: #b6d4f4;
+    color: #fff; 
+  }
